@@ -1,12 +1,12 @@
-call pathogen#infect()
+"call pathogen#infect()
 
 " Section: configuration
 
   scriptencoding utf-8
 
   " I like pretty colors
-  colorscheme jellybeans
-  "colorscheme ir_black
+  " colorscheme jellybeans
+  " colorscheme ir_black
 
   " These two enable syntax highlighting
   set nocompatible          " We're running Vim, not Vi!
@@ -77,7 +77,7 @@ call pathogen#infect()
   set statusline+=%-14.(%l,%c%V%)\ %<%P " offset
 
   " enable setting title
-  set title
+  " set title
   " configure title to look like: Vim /path/to/file
   set titlestring=VIM:\ %-25.55F\ %a%r%m titlelen=70
 
